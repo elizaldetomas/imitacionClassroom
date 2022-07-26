@@ -1,0 +1,101 @@
+@font-face {
+    font-family: RobotoLigth;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.caja:hover {
+    cursor: pointer;
+    box-shadow: #3f3f3f60 0px 2px 15px -4px;
+}
+
+.cabecera {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-family: RobotoLigth;
+    height: 100px;
+    padding-left: 15px;
+}
+
+.materia {
+    width: 228px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Google Sans;
+    font-size: 22px;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.profesor {
+    font-family: RobotoLigth;
+    margin: 0px;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.union {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.editar {
+    margin-left: 20px;
+}
+
+.tresPuntosVerticales {
+    fill: #fff;
+    background-color: none;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(443%,-137%);
+}
+
+.tresPuntosVerticales:hover{ background-color: rgba(90, 90, 90, 0.164); }
+
+.materia:hover, .profesor:hover,
+.materia:hover~.profesor,
+.profesor:hover~.materia {
+    text-decoration: underline;
+}
+
+.cuerpo {
+    width: 100%;
+    height: 137px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.pie {
+    width: 100%;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+#cuadroPersona, #carpeta {
+    padding: 12px;
+    border-radius: 50%;
+    fill: #212121;
+}
+
+#cuadroPersona:hover, #carpeta:hover {
+    background-color: #0000000e;
+    transition: .3s all;
+}
+
+#carpeta{
+    margin-right: 4px;
+}
+
+
+/* Colores de fondo */
+#caja1 .cabecera, #caja6 .cabecera { background-color: #397bec; }
+#caja2 .cabecera, #caja4 .cabecera, #caja5 .cabecera { background-color: #863995; }
+#caja3 .cabecera { background-color: #ff8a66; }

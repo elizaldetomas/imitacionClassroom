@@ -1,0 +1,18 @@
+.pendientes, .revisar, .calendario {
+    display: flex;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.pendientes, .revisar {
+    margin-right: 5px;
+}
+
+.enlace {
+    margin-right: 8px;
+}
+
+.pendientes:hover, .revisar:hover, .calendario:hover {
+    background-color: #f6fafe;
+    cursor: pointer;
+}

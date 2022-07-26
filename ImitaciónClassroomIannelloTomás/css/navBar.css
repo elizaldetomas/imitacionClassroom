@@ -1,0 +1,108 @@
+@font-face {
+    font-family: ProductSans;
+    src: url(../fonts/ProductSansRegular.ttf);
+}
+
+.navIzq {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+}
+
+.menu {
+    padding: 12px;
+    display: flex;
+    border: 2px transparent;
+}
+
+.apps, .menu {
+    fill: #5f6368;
+}
+
+.logo {
+    display: flex;
+    margin-left: 5px;
+}
+
+.nombreLogo {
+    font-size: 22px;
+    color: #5f6368;
+}
+
+.marca {
+    width: 74px;
+    height: 24px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+/* ------- Nav Izquierda */
+
+
+
+/* ------- Nav Derecha */
+.navDer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.agregar {
+    fill: #212121;
+}
+
+.claseNueva, .appsLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.claseNueva {
+    margin-right: 5px;
+    padding: 12px;
+}
+
+.appsLogo{
+    margin-right: 8px;
+    padding: 8px;
+}
+
+.appsLogo:hover, .menu:hover, .claseNueva:hover {
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contenedorPerfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil {
+    width: 32px;
+    height: 32px;
+    background-color: #0097a7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.perfil span{
+    text-align: center;
+    color: #fff;
+}
+
+.contenedorPerfil:hover{
+    background-color: #f5f5f5;
+}
+
+/* ------- Nav Derecha */

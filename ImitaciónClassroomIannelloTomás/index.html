@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- actualizado -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/google-classroom-logo-2.png">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/menuLateral.css">
+    <link rel="stylesheet" href="css/cajaClase.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/enlaces.css">
+    <script defer src="js/main.js"></script>
+    <title>Clases</title>
+</head>
+
+<body>
+    <div class="nav" id="nav">
+        <div class="navIzq">
+            <div id="btn-menu" class="menu">
+                <svg id="btn-menu" width="24" height="24" viewBox="0 0 24 24" focusable="false">
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                </svg>
+            </div>
+            <div class="logo">
+                <img class="marca" src="img/googlelogo_clr_74x24px.svg">
+                <span class="nombreLogo">Classroom</span>
+            </div>
+        </div>
+        <div class="navDer">
+            <div class="btn-menu claseNueva"> <svg class="agregar" width="24" height="24" viewBox="0 0 24 24" focusable="false">
+                    <path d="M20 13h-7v7h-2v-7H4v-2h7V4h2v7h7v2z"></path>
+                </svg> </div>
+            <div class="appsLogo"> <svg class="apps" width="24" height="24" viewBox="0 0 24 24" focusable="false">
+                    <path
+                        d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                    </path>
+                </svg> </div>
+            <div class="contenedorPerfil">
+                <div class="perfil"> <span>I</span> </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menú Lateral -->
+    <aside id="lateral">
+        <div class="sobreContenedor info actual">
+            <div id="btn-home" class="atajo info">
+                <svg class="inicio" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M12 3L4 9v12h16V9l-8-6zm6 16h-3v-6H9v6H6v-9l6-4.5 6 4.5v9z"></path>
+                </svg>
+                <label for="inicio">Clases</label>
+            </div>
+        </div>
+
+        <div class="sobreContenedor info">
+            <div class="atajo info">
+                <svg class=" calendarioL" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z">
+                    </path>
+                </svg>
+                <label for="calendarioL">Calendario</label>
+            </div>
+        </div>
+
+        <div class="separador"></div>
+        <div class="apartado">
+            <span>Clases impartidas</span>
+        </div>
+
+        <div class="sobreContenedor info">
+            <div class="atajo info">
+                <svg class="revisarL" enable-background="new 0 0 24 24" focusable="false" height="24"
+                    viewBox="0 0 24 24" width="24">
+                    <g>
+                        <path
+                            d="M20,6h-8l-2-2H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V8C22,6.9,21.1,6,20,6z M20,18H4V8h16V18z M18,12H6v-2h12V12z M14,16H6v-2h8V16z">
+                        </path>
+                        <rect fill="none" height="24" width="24"></rect>
+                    </g>
+                </svg>
+                <label for="revisarL">Para revisar</label>
+            </div>
+        </div>
+
+        <div class="sobreContenedor">
+            <div class="atajo">
+                <div class="perfil materia1"> <span>2</span> </div>
+                <label for="perfil">
+                    <h6>2022-3C Informática</h6>
+                    <p>Lucas Blanco</p>
+                </label>
+            </div>
+        </div>
+
+        <div class="sobreContenedor">
+            <div class="atajo">
+                <div class="perfil materia2"> <span>2</span> </div>
+                <label for="perfil">
+                    <h6>2022-4T Laboratorio de Hardware</h6>
+                    <p>Rodolfo Zigalini - Lucas Blanco</p>
+                </label>
+            </div>
+        </div>
+
+        <div class="sobreContenedor">
+            <div class="atajo">
+                <div class="perfil materia3"> <span>2</span> </div>
+                <label for="perfil">
+                    <h6>2022-5T Sistemas Digitales</h6>
+                    <p>Lucas Blanco</p>
+                </label>
+            </div>
+        </div>
+
+        <div class="sobreContenedor">
+            <div class="atajo">
+                <div class="perfil materia4"> <span>2</span> </div>
+                <label for="perfil">
+                    <h6>2022-5T Laboratorio de Programación</h6>
+                    <p>Lucas Blanco</p>
+                </label>
+            </div>
+        </div>
+
+        <div class="sobreContenedor">
+            <div class="atajo">
+                <div class="perfil materia5"> <span>2</span> </div>
+                <label for="perfil">
+                    <h6>2022-6T Laboratorio de Aplicaciones</h6>
+                    <p>Lucas Blanco</p>
+                </label>
+            </div>
+        </div>
+
+        <div class="sobreContenedor">
+            <div class="atajo">
+                <div class="perfil materia6"> <span>2</span> </div>
+                <label for="perfil">
+                    <h6>2022-7T Instalación, Mantenimiento y Reparación de Sistemas Computacionales</h6>
+                    <p>Lucas Blanco</p>
+                </label>
+            </div>
+        </div>
+        <div class="separador"></div>
+
+        <div class="sobreContenedor info">
+            <div class="atajo info">
+                <svg class="archivadas" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M20.54 5.23l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.16.55L3.46 5.23C3.17 5.57 3 6.02 3 6.5V19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.48-.17-.93-.46-1.27zM6.24 5h11.52l.83 1H5.42l.82-1zM5 19V8h14v11H5zm11-5.5l-4 4-4-4 1.41-1.41L11 13.67V10h2v3.67l1.59-1.59L16 13.5z">
+                    </path>
+                </svg>
+                <label for="archivadas">Clases archivadas</label>
+            </div>
+        </div>
+
+        <div class="sobreContenedor info">
+            <div class="atajo info">
+                <svg class="config" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M13.85 22.25h-3.7c-.74 0-1.36-.54-1.45-1.27l-.27-1.89c-.27-.14-.53-.29-.79-.46l-1.8.72c-.7.26-1.47-.03-1.81-.65L2.2 15.53c-.35-.66-.2-1.44.36-1.88l1.53-1.19c-.01-.15-.02-.3-.02-.46 0-.15.01-.31.02-.46l-1.52-1.19c-.59-.45-.74-1.26-.37-1.88l1.85-3.19c.34-.62 1.11-.9 1.79-.63l1.81.73c.26-.17.52-.32.78-.46l.27-1.91c.09-.7.71-1.25 1.44-1.25h3.7c.74 0 1.36.54 1.45 1.27l.27 1.89c.27.14.53.29.79.46l1.8-.72c.71-.26 1.48.03 1.82.65l1.84 3.18c.36.66.2 1.44-.36 1.88l-1.52 1.19c.01.15.02.3.02.46s-.01.31-.02.46l1.52 1.19c.56.45.72 1.23.37 1.86l-1.86 3.22c-.34.62-1.11.9-1.8.63l-1.8-.72c-.26.17-.52.32-.78.46l-.27 1.91c-.1.68-.72 1.22-1.46 1.22zm-3.23-2h2.76l.37-2.55.53-.22c.44-.18.88-.44 1.34-.78l.45-.34 2.38.96 1.38-2.4-2.03-1.58.07-.56c.03-.26.06-.51.06-.78s-.03-.53-.06-.78l-.07-.56 2.03-1.58-1.39-2.4-2.39.96-.45-.35c-.42-.32-.87-.58-1.33-.77l-.52-.22-.37-2.55h-2.76l-.37 2.55-.53.21c-.44.19-.88.44-1.34.79l-.45.33-2.38-.95-1.39 2.39 2.03 1.58-.07.56a7 7 0 0 0-.06.79c0 .26.02.53.06.78l.07.56-2.03 1.58 1.38 2.4 2.39-.96.45.35c.43.33.86.58 1.33.77l.53.22.38 2.55z">
+                    </path>
+                    <circle cx="12" cy="12" r="3.5"></circle>
+                </svg>
+                <label for="config">Ajustes</label>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Cuerpo del sitio -->
+    <div class="main" id="main">
+        <div class="enlaces">
+            <div class="pendientes">
+                <svg class="enlace" enable-background="new 0 0 24 24" focusable="false" height="18" viewBox="0 0 24 24"
+                    width="18">
+                    <g>
+                        <rect fill="none" height="24" width="24"></rect>
+                    </g>
+                    <g>
+                        <g>
+                            <path
+                                d="M20,3H4C2.9,3,2,3.9,2,5v14c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V5 C22,3.9,21.1,3,20,3z M20,19H4V5h16V19z"
+                                fill-rule="evenodd"></path>
+                            <polygon fill-rule="evenodd"
+                                points="19.41,10.42 17.99,9 14.82,12.17 13.41,10.75 12,12.16 14.82,15"></polygon>
+                            <rect fill-rule="evenodd" height="2" width="5" x="5" y="7"></rect>
+                            <rect fill-rule="evenodd" height="2" width="5" x="5" y="11"></rect>
+                            <rect fill-rule="evenodd" height="2" width="5" x="5" y="15"></rect>
+                        </g>
+                    </g>
+                </svg>
+                <span>Tareas pendientes</span>
+            </div>
+            <div class="revisar">
+                <svg class="enlace" enable-background="new 0 0 24 24" focusable="false" height="18" viewBox="0 0 24 24"
+                    width="18" class=" NMm5M">
+                    <g>
+                        <path
+                            d="M20,6h-8l-2-2H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V8C22,6.9,21.1,6,20,6z M20,18H4V8h16V18z M18,12H6v-2h12V12z M14,16H6v-2h8V16z">
+                        </path>
+                        <rect fill="none" height="24" width="24"></rect>
+                    </g>
+                </svg>
+                <span>Para revisar</span>
+            </div>
+            <div class="calendario">
+                <svg class="enlace" focusable="false" width="18" height="18" viewBox="0 0 24 24">
+                    <path
+                        d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z">
+                    </path>
+                </svg>
+                <span>Calendario</span>
+            </div>
+        </div>
+
+        <div class="clases">
+            <div id="caja1" class="caja">
+                <div class="cabecera">
+                    <div class="info">
+                        <p class="materia">2022-3C Informática</p>
+                        <p class="profesor">Lucas Blanco</p>
+                    </div>
+                    <div class="editar"> <svg class="tresPuntosVerticales" focusable="false" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </path>
+                        </svg> </div>
+                </div>
+                <div class="logo"></div>
+                <div class="cuerpo"></div>
+                <div class="pie">
+                    <svg id="cuadroPersona" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M16 6v2h2.58l-5.17 5.17-4-4L2 16.59 3.41 18l6-6 4 4L20 9.42V12h2V6z"></path>
+                        </path>
+                    </svg>
+                    <svg id="carpeta" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z">
+                        </path>
+                    </svg>
+                </div>
+            </div> <!-- caja 1 -->
+
+            <div id="caja2" class="caja">
+                <div class="cabecera">
+                    <div class="info">
+                        <p class="materia">2022-4T Laboratorio de Hardware</p>
+                        <p class="profesor">Rodolfo Zigalini - Lucas Blanco</p>
+                    </div>
+                    <div class="editar"> <svg class="tresPuntosVerticales" focusable="false" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </path>
+                        </svg> </div>
+                </div>
+                <div class="logo"></div>
+                <div class="cuerpo"></div>
+                <div class="pie">
+                    <svg id="cuadroPersona" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M16 6v2h2.58l-5.17 5.17-4-4L2 16.59 3.41 18l6-6 4 4L20 9.42V12h2V6z"></path>
+                        </path>
+                    </svg>
+                    <svg id="carpeta" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z">
+                        </path>
+                    </svg>
+                </div>
+            </div> <!-- caja 2 -->
+
+            <div id="caja3" class="caja">
+                <div class="cabecera">
+                    <div class="info">
+                        <p class="materia">2022-5T Sistemas Digitales</p>
+                        <p class="profesor">Lucas Blanco</p>
+                    </div>
+                    <div class="editar"> <svg class="tresPuntosVerticales" focusable="false" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </path>
+                        </svg> </div>
+                </div>
+                <div class="logo"></div>
+                <div class="cuerpo"></div>
+                <div class="pie">
+                    <svg id="cuadroPersona" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M16 6v2h2.58l-5.17 5.17-4-4L2 16.59 3.41 18l6-6 4 4L20 9.42V12h2V6z"></path>
+                        </path>
+                    </svg>
+                    <svg id="carpeta" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z">
+                        </path>
+                    </svg>
+                </div>
+            </div> <!-- caja 3 -->
+
+            <div id="caja4" class="caja">
+                <div class="cabecera">
+                    <div class="info">
+                        <p class="materia">2022-5T Laboratorio de Programación</p>
+                        <p class="profesor">Lucas Blanco</p>
+                    </div>
+                    <div class="editar"> <svg class="tresPuntosVerticales" focusable="false" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </path>
+                        </svg> </div>
+                </div>
+                <div class="logo"></div>
+                <div class="cuerpo"></div>
+                <div class="pie">
+                    <svg id="cuadroPersona" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M16 6v2h2.58l-5.17 5.17-4-4L2 16.59 3.41 18l6-6 4 4L20 9.42V12h2V6z"></path>
+                        </path>
+                    </svg>
+                    <svg id="carpeta" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z">
+                        </path>
+                    </svg>
+                </div>
+            </div> <!-- caja 4 -->
+
+            <div id="caja5" class="caja">
+                <div class="cabecera">
+                    <div class="info">
+                        <p class="materia">2022-6T Laboratorio de Aplicaciones</p>
+                        <p class="profesor">Lucas Blanco</p>
+                    </div>
+                    <div class="editar"> <svg class="tresPuntosVerticales" focusable="false" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </path>
+                        </svg> </div>
+                </div>
+                <div class="logo"></div>
+                <div class="cuerpo"></div>
+                <div class="pie">
+                    <svg id="cuadroPersona" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M16 6v2h2.58l-5.17 5.17-4-4L2 16.59 3.41 18l6-6 4 4L20 9.42V12h2V6z"></path>
+                        </path>
+                    </svg>
+                    <svg id="carpeta" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z">
+                        </path>
+                    </svg>
+                </div>
+            </div> <!-- caja 5 -->
+
+            <div id="caja6" class="caja">
+                <div class="cabecera">
+                    <div class="info">
+                        <p class="materia">2022-7T Instalación, Mantenimiento y Reparación de Sistemas
+                            Computacionales</p>
+                        <p class="profesor">Lucas Blanco</p>
+                    </div>
+                    <div class="editar"> <svg class="tresPuntosVerticales" focusable="false" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </path>
+                        </svg> </div>
+                </div>
+                <div class="logo"></div>
+                <div class="cuerpo"></div>
+                <div class="pie">
+                    <svg id="cuadroPersona" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M16 6v2h2.58l-5.17 5.17-4-4L2 16.59 3.41 18l6-6 4 4L20 9.42V12h2V6z"></path>
+                        </path>
+                    </svg>
+                    <svg id="carpeta" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z">
+                        </path>
+                    </svg>
+                </div>
+            </div> <!-- caja 6 -->
+        </div> <!-- clases -->
+
+        <!-- Boton fixed -->
+        <abbr id="btn-ayuda" class="ayuda" title="Ayuda y comentarios">
+            <svg class="ayudaLogo" title="Ayuda y comentarios" width="24" height="24" viewBox="0 0 24 24"
+                focusable="false">
+                <path
+                    d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z">
+                </path>
+            </svg>
+        </abbr>
+    </div> <!-- main -->
+</body>
+
+</html>
